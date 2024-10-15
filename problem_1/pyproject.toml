@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fixed_width_parser"
+version = "0.1.0"
+description = "Parse fixed width files and convert to CSV."
+authors = ["Datta Tele <datta.tele@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+faker = "^18.9.0"
+tqdm = "^4.66.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.14.0"
+coverage = "^7.2.7"
