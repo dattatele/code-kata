@@ -240,6 +240,8 @@ poetry run python data_processing/anonymize_data.py
 ```bash
 poetry run pytest --cov=data_processing tests/
 ```
+![image](https://github.com/user-attachments/assets/d31bb4bc-475c-480f-8237-ce22e0640a8c)
+
 
 ##
 
