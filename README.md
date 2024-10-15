@@ -6,7 +6,7 @@
 This repository contains solutions to two related problems:
 
 1. **Problem 1:** Generate a fixed-width file based on a provided specification and parse it into a CSV file.
-2. **Problem 2:** (You can add details about Problem 2 here if applicable.)
+2. **Problem 2:** Generate a Large CSV file around 2 GB in size and then anonymize data points.
 
 Both problems are implemented in Python, leveraging tools like Poetry for dependency management and Docker for containerization. Comprehensive testing ensures code reliability and coverage.
 
