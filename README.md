@@ -169,6 +169,8 @@ docker run --rm \
     -v $(pwd)/logs:/app/logs \
     fixed-width-parser
 ```
+![image](https://github.com/user-attachments/assets/433b46fa-9700-404d-8fe7-4a85aeee9024)
+
 3. Run Tests with Coverage Inside Docker:
 
 ```bash
