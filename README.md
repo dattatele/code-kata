@@ -253,6 +253,8 @@ docker build -t data-processing .
 ```bash
 docker run --rm -v $(pwd)/data:/app/data data-processing
 ```
+![image](https://github.com/user-attachments/assets/441e7198-5b6e-4320-bd08-e8bcb4012ab0)
+
 3.  Run the Tests
 ```bash
 docker run --rm data-processing pytest --cov=data_processing tests/
