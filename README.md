@@ -172,10 +172,8 @@ docker run --rm \
 3. Run Tests with Coverage Inside Docker:
 
 ```bash
-docker run --rm \
-    -v $(pwd)/data:/app/data \
-    -v $(pwd)/logs:/app/logs \
-    fixed-width-parser
+docker run --rm fixed-width-parser pytest --cov=fixed_width_parser tests/
+
 ```
 ##
 
